@@ -4,7 +4,6 @@ const sequelize = new Sequelize('banco_teste','postgres','postgres',{
     host: 'localhost',
     dialect: 'postgres'
 
-
 })
 
 module.exports = sequelize

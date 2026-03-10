@@ -1,4 +1,5 @@
-
+ 
+ //Instância de componentes para acesso ao banco de dados
  const Sequelize = require('sequelize')
  const conexao = require('./database')
 
@@ -11,7 +12,8 @@
     }
  })
 
-
- Items.sync({force: false}).then(()=> console.log('Items criado'))
-
+ //Criação de tabelas
+ Items.sync({force: false}).then(()=> console.log('Tabela de Items foi criada'))
+ 
+ //Exportação de módulo
  module.exports = Items
