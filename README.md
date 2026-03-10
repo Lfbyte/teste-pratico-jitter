@@ -1,1 +1,1 @@
-Implementação de API de ordens.
+Implementação de API de ordens de desafio prático.
